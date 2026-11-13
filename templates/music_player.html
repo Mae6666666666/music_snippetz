@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header class="search-header">
+      <div class="header-logo">
+          <button class="music-icon">🎵</button>
+          <h3>
+            Music Snippetz
+          </h3>
+      </div>
+      <nav class="nav-links">
+        <a class="search-a-tags" href="search.html">
+            Search
+        </a>
+        <a class="search-a-tags" href="player.html">
+            Now playing
+        </a>
+        <a class="search-a-tags" href="login.html">
+            Log out
+        </a>
+      </nav>
+  </header>
+  <br>
+  <br>
+  <div class="song-container">
+    <a href="search_music.html" class="grey-text search-a-tags">
+        <  back to results
+    </a>
+    <h1>
+        Title
+    </h1>
+    <img src="/static/music_placeholder_album.jpeg" alt="A picture of a music album" class="record-image">
+    <p class="grey-text">
+        Artist
+    </p>
+    <div class="music-bar-container">
+        <button class="play-btn">
+            ▶
+        </button>
+        <div class="progress-area">
+            <input type="range" min="0" max="30" value="0" class="progress-bar">
+            <div class="progress-times">
+                <span>0:00</span>
+                <span>-0:30</span>
+            </div>
+        </div>
+        
+    </div>
+    <br>
+    <div class="more-info-bar">
+        <p>More information</p>
+    </div>
+  </div>
+</body>
+</html>
